@@ -1,0 +1,30 @@
+{
+    "name": "jogabonito",
+    "version": "0.1.0",
+    "description": "Try to make the more juggle as possible using only your head.",
+    "main": "index.js",
+    "scripts": {
+        "play": "webpack -d --watch",
+        "build": "webpack -p"
+    },
+    "eslintConfig": {
+        "extends": "@gmartigny/eslint-config"
+    },
+    "author": "GMartigny",
+    "license": "MIT",
+    "devDependencies": {
+        "@gmartigny/eslint-config": "^1.3.1",
+        "copy-webpack-plugin": "^5.1.1",
+        "css-loader": "^3.4.0",
+        "eslint": "^6.8.0",
+        "file-loader": "^5.0.2",
+        "html-webpack-plugin": "^3.2.0",
+        "mini-css-extract-plugin": "^0.9.0",
+        "webpack": "^4.41.5",
+        "webpack-cli": "^3.3.10"
+    },
+    "dependencies": {
+        "face-api.js": "^0.22.0",
+        "pencil.js": "^1.14.0"
+    }
+}

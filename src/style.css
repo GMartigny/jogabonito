@@ -1,0 +1,25 @@
+body {
+    margin: 0;
+    background: #00923E;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    left: 0;
+    right: 0;
+    margin: 50px auto;
+    border: 50px solid #F8C100;
+    box-sizing: content-box;
+}
+
+main p {
+    flex: 1 0 auto;
+    text-align: center;
+    color: #fff;
+}
+
+main video {
+    transform: scale3d(-1, 1, 1);
+    /*border-radius: 8px;*/
+}
