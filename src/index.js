@@ -1,6 +1,7 @@
 import { Scene, Text, Circle, Image, Position, Triangle, Math as M } from "pencil.js/pencil";
 import { nets, TinyFaceDetectorOptions, DetectSingleFaceTask, resizeResults } from "face-api.js";
 import ballImage from "./ball.png";
+import "github-corner";
 import "./style.css";
 
 // Load required models
@@ -71,6 +72,9 @@ const run = async () => {
         height: 720,
     };
     document.body.innerHTML = `
+<github-corner fill="#28166F">
+    <a href="https://github.com/GMartigny/jogabonito"></a>
+</github-corner>
 <main id="container" style="width: ${size.width}px; height: ${size.height}px">
     <p>Enable your camera</p>
 </main>
