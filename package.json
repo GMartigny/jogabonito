@@ -1,6 +1,6 @@
 {
     "name": "jogabonito",
-    "version": "0.1.0",
+    "version": "1.0.0",
     "description": "Try to make the more juggle as possible using only your head.",
     "main": "index.js",
     "scripts": {
